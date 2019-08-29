@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trivia Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h1 class="title">Totally Trivial Trivia!</h1>
+    <hr>
+    <a class="btn btn-primary btn-lg" href="#" role="button" id="startgame">Start the Game</a>
+    <div class="col-12 text-center" id="show-number"></div>
+
+    <div class="container bg-light m-4 p-3" style="display: none;">
+      <div class="col-12" id="questions">
+        <h2>What was Mohammed Ali’s birth name?</h2>
+      </div>
+
+      <div class="col-12">
+        <div class="row">
+          <div class="col-3">
+            <input type="radio" name="answer1" value="answer1">Joe Frazier
+          </div>
+
+          <div class="col-3">
+            <input type="radio" name="answer1" value="answer1">Cassius Clay
+          </div>
+
+          <div class="col-3">
+            <input type="radio" name="answer1" value="answer1">Michael Spinks
+          </div>
+
+          <div class="col-3">
+            <input type="radio" name="answer1" value="answer1">Larry Holmes
+          </div>
+
+          
+        </div>
+      </div>
+
+     <button id="done-button" type="button" class="btn btn-success">Done</button>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
